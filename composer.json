@@ -1,5 +1,5 @@
 {
-    "name": "sylius/plugin-skeleton",
+    "name": "lockizer/sylius-sendcloud-plugin",
     "type": "sylius-plugin",
     "description": "Acme example plugin for Sylius.",
     "keywords": [
@@ -9,6 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.4 || ^8.0",
+        "picqer/sendcloud-php-client": "^2.6",
         "sylius/sylius": "~1.9.0"
     },
     "require-dev": {
@@ -52,8 +53,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Acme\\SyliusExamplePlugin\\": "src/",
-            "Tests\\Acme\\SyliusExamplePlugin\\": "tests/"
+            "Lockizer\\SyliusSendcloudPlugin\\": "src/",
+            "Tests\\Lockizer\\SyliusSendcloudPlugin\\": "tests/"
         }
     },
     "autoload-dev": {
