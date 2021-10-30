@@ -40,7 +40,9 @@ jobs:
         steps:
             -
                 uses: actions/checkout@v2
-
+            -
+                name: Fix premissions
+                run: sudo chmod -R 777 ./
             -
                 name: Setup PHP
                 uses: shivammathur/setup-php@v2
