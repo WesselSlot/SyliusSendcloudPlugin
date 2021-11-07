@@ -4,6 +4,7 @@
 ### Features
 | Requirement        | Implemented |
 | ------------- |:-------------:|
+| Create SendCloud shipping methode | No |
 | Create a parcel in Sendcloud when the order is placed and payed | No |
 | Show sync with Sendcloud status on the shipment overview| No |
 
