@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.4 || ^8.0",
-        "picqer/sendcloud-php-client": "^2.6",
+        "jouwweb/sendcloud": "^3.10",
         "sylius/sylius": "~1.9.0"
     },
     "require-dev": {
